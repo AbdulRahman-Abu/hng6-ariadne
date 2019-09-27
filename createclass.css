@@ -9,7 +9,6 @@
     margin-left: 210px;
     margin-right: 60px;
     border-radius: 20px;
-    /* background: snow; */
     background-color: white;
 }
 table.formtable {
@@ -63,13 +62,14 @@ select {
     widows: 150px;
 }
 
-#enterClassName, .subjects, .age {
+#enterClassName, .subjects, .courselevel, .exercise, .quiz {
     margin-bottom: 25px;
     width: 300px;
     height: 40px;
     border-radius: 5px;
+    cursor: pointer;
 }
-input:hover, select:hover {
+input:hover {
     background: cadetblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
